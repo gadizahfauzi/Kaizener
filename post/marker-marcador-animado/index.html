@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Marker Marcador Animado / Pruebe el siguiente código para animar el marcador en google map v2. - Kaizener</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Cómo personalizar los marcadores (marks) de google maps, utilizando las clases y métodos que nos ofrece su api.">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Kaizener" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Kaizener</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+	
+    <script data-cfasync="false">
+    var _avp = _avp || [];
+    (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = window.location.protocol + '//adserver.adreactor.com/js/libcode3.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+    })();
+    </script>
+    
+	
+	    
+    <script>
+    if (!document.cookie || document.cookie.indexOf('AVPWCAP=') == -1) {
+    _avp.push({ alias: '/', type: 'window', zid: 23, pid: 8697 });
+    }
+    </script>
+    
+	
+<script>(function(a,b,c){Object.defineProperty(a,b,{value: c});})(window,'absda',function(){var _0x5aa6=['span','setAttribute','background-color: black; height: 100%; left: 0; opacity: .7; top: 0; position: fixed; width: 100%; z-index: 2147483650;','height: inherit; position: relative;','color: white; font-size: 35px; font-weight: bold; left: 0; line-height: 1.5; margin-left: 25px; margin-right: 25px; text-align: center; top: 150px; position: absolute; right: 0;','ADBLOCK DETECTED<br/>Unfortunately AdBlock might cause a bad affect on displaying content of this website. Please, deactivate it.','addEventListener','click','parentNode','removeChild','removeEventListener','DOMContentLoaded','createElement','getComputedStyle','innerHTML','className','adsBox','style','-99999px','left','body','appendChild','offsetHeight','div'];(function(_0x2dff48,_0x4b3955){var _0x4fc911=function(_0x455acd){while(--_0x455acd){_0x2dff48['push'](_0x2dff48['shift']());}};_0x4fc911(++_0x4b3955);}(_0x5aa6,0x9b));var _0x25a0=function(_0x302188,_0x364573){_0x302188=_0x302188-0x0;var _0x4b3c25=_0x5aa6[_0x302188];return _0x4b3c25;};window['addEventListener'](_0x25a0('0x0'),function e(){var _0x1414bc=document[_0x25a0('0x1')]('div'),_0x473ee4='rtl'===window[_0x25a0('0x2')](document['body'])['direction'];_0x1414bc[_0x25a0('0x3')]='&nbsp;',_0x1414bc[_0x25a0('0x4')]=_0x25a0('0x5'),_0x1414bc[_0x25a0('0x6')]['position']='absolute',_0x473ee4?_0x1414bc[_0x25a0('0x6')]['right']=_0x25a0('0x7'):_0x1414bc[_0x25a0('0x6')][_0x25a0('0x8')]=_0x25a0('0x7'),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x1414bc),setTimeout(function(){if(!_0x1414bc[_0x25a0('0xb')]){var _0x473ee4=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x3c0b3b=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x1f5f8c=document[_0x25a0('0x1')](_0x25a0('0xd')),_0x5a9ba0=document['createElement']('p');_0x473ee4[_0x25a0('0xe')]('style',_0x25a0('0xf')),_0x3c0b3b['setAttribute']('style',_0x25a0('0x10')),_0x1f5f8c[_0x25a0('0xe')](_0x25a0('0x6'),'color: white; cursor: pointer; font-size: 50px; font-weight: bold; position: absolute; right: 30px; top: 20px;'),_0x5a9ba0[_0x25a0('0xe')](_0x25a0('0x6'),_0x25a0('0x11')),_0x5a9ba0[_0x25a0('0x3')]=_0x25a0('0x12'),_0x1f5f8c[_0x25a0('0x3')]='&#10006;',_0x3c0b3b['appendChild'](_0x5a9ba0),_0x3c0b3b[_0x25a0('0xa')](_0x1f5f8c),_0x1f5f8c[_0x25a0('0x13')](_0x25a0('0x14'),function _0x3c0b3b(){_0x473ee4[_0x25a0('0x15')][_0x25a0('0x16')](_0x473ee4),_0x1f5f8c['removeEventListener']('click',_0x3c0b3b);}),_0x473ee4[_0x25a0('0xa')](_0x3c0b3b),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x473ee4);}},0xc8),window[_0x25a0('0x17')]('DOMContentLoaded',e);});});</script><script type='text/javascript' onerror='absda()' src='//blissfuldes.com/41/6c/2e/416c2e838ffd0ebdc5c06cfa83cc5244.js'></script>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Marker Marcador Animado / Pruebe el siguiente código para animar el marcador en google map v2.</h1>
+			
+		</header><div class="content post__content clearfix">
+			
+<section>
+    <aside>
+        <a href="https://banner2.cleanpng.com/20180314/gwq/kisspng-marker-pen-drawing-illustration-vector-pen-label-5aa982f1050793.0721783015210585450206.jpg"><img alt="Marker Pen Cylinder Png Download 1427 1370 Free Transparent Marker Pen Png Download Cleanpng Kisspng See a recent post on tumblr from @yninastuff about marcador. clean png" src="https://banner2.cleanpng.com/20180314/gwq/kisspng-marker-pen-drawing-illustration-vector-pen-label-5aa982f1050793.0721783015210585450206.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYoHigTpZmGI13T3csOHqpbG7TMiS1D0ZdOw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>900x880 - O marcador industrial unipaint marker é fabricado pela mitsubishi no japão, se tornado o mais vendido do mundo por sua resistência, durabilidade, usabilidade e rendimento. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 900x880</li> 
+    <mark>Marker Pen Cylinder Png Download 1427 1370 Free Transparent Marker Pen Png Download Cleanpng Kisspng </mark> Descubrí la mejor forma de comprar online.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://images-na.ssl-images-amazon.com/images/I/81O-c1p4tAL._AC_SY355_.jpg"><img alt="Amazon Com Keebor Premium 80 1 Colores Doble Punta Alcohol Arte Marcadores Mas 1 Marcador De Licuadora Con Embalaje Grueso Marcadores Generales Para La Academia De Bellas Artes Office Products Lo que quiero hacer es que el tamaño de mi marcador de google maps tenga un tamaño menor y más adecuado al mapa que estoy mostrando, mi marcador es en si una imagen que descargue para. keebor premium 80 1 colores doble punta alcohol arte marcadores mas 1 marcador de licuadora con embalaje grueso marcadores generales para la" src="https://images-na.ssl-images-amazon.com/images/I/81O-c1p4tAL._AC_SY355_.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLqLcwoMHNF-63ePaDb5uojAKRoIZJgmhyZw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>369x355 - Por favor, alguien puede ayudarme a agregar marcador animado como este para android google maps v2. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 369x355</li> 
+    <mark>Amazon Com Keebor Premium 80 1 Colores Doble Punta Alcohol Arte Marcadores Mas 1 Marcador De Licuadora Con Embalaje Grueso Marcadores Generales Para La Academia De Bellas Artes Office Products </mark> Descubrí la mejor forma de comprar online.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://www.dhresource.com/0x0/f2/albu/g10/M01/79/73/rBVaWV7KJ7qAAjrhAALq81iVYvk784.jpg/noah-double-head-marker-pen-multicolor-student.jpg"><img alt="Compre Toque Marcador De Dos Puntas Multiples Colores Planos Pluma Diseno De Interiores Estudiante Paisaje Animado De Pintura De Acuarela De Color 80 Arte Marcador Alcoh Boceto A 22 42 Del Wsc19970309 Dhgate Com El marcador sketch ha revolucionado los marcadores de bellas artes. compre toque marcador de dos puntas multiples colores planos pluma diseno de interiores estudiante paisaje animado de pintura de acuarela de color 80" src="https://www.dhresource.com/0x0/f2/albu/g10/M01/79/73/rBVaWV7KJ7qAAjrhAALq81iVYvk784.jpg/noah-double-head-marker-pen-multicolor-student.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmjWcIjDT6zQMQGqmpUlK603DJsIHlB7UzQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>700x700 - Pruebe el siguiente código para animar el marcador en google map v2. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 700x700</li> 
+    <mark>Compre Toque Marcador De Dos Puntas Multiples Colores Planos Pluma Diseno De Interiores Estudiante Paisaje Animado De Pintura De Acuarela De Color 80 Arte Marcador Alcoh Boceto A 22 42 Del Wsc19970309 Dhgate Com </mark> Si deseas personalizar los marcadores, puedes cambiar el color predeterminado o reemplazar su ícono por una imagen personalizada.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://m.media-amazon.com/images/I/812t7DmFMcL._AC_SS450_.jpg"><img alt="Amazon Com Keebor Premium 50 1 Colores Marcadores De Alcohol De Doble Punta Mas 1 Marcador De Licuadora Con Embalaje Grueso Marcadores Generales Para La Academia De Bellas Artes Office Products En realidad, casi cualquier objetivo que queramos. keebor premium 50 1 colores marcadores de alcohol de doble punta mas 1 marcador de licuadora con embalaje grueso marcadores generales para la" src="https://m.media-amazon.com/images/I/812t7DmFMcL._AC_SS450_.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBtjChGUmmqaG3xXaDsFeeS-0XY_7rNytF3g&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>450x450 - Sustantivo de género exclusivamente masculino, que lleva los artículos el o un en singular, y los o unos en plural. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 450x450</li> 
+    <mark>Amazon Com Keebor Premium 50 1 Colores Marcadores De Alcohol De Doble Punta Mas 1 Marcador De Licuadora Con Embalaje Grueso Marcadores Generales Para La Academia De Bellas Artes Office Products </mark> See a recent post on tumblr from @yninastuff about marcador.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://png.pngtree.com/png-clipart/20190904/original/pngtree-colored-marker-hand-drawn-illustration-png-image_4499581.jpg"><img alt="Marcador De Color Marcador Pintado A Mano Marcador De Dibujos Animados Decoracion De Marcador Coloreado Marcador Marcador Pintado A Mano Png Y Psd Para Descargar Gratis Pngtree Resistente à água e à luz solar. https es pngtree com freepng colored marker hand drawn illustration 4499581 html" src="https://png.pngtree.com/png-clipart/20190904/original/pngtree-colored-marker-hand-drawn-illustration-png-image_4499581.jpg" width="100%" onerror="this.onerror=null;this.src='1';"></a>
+		
+		<p style="text-align: center;"><b>1200x1200 - Especial para decoraciones y marcado en vidrio, globos, todo tipo de papel y cartulinas. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1200x1200</li> 
+    <mark>Marcador De Color Marcador Pintado A Mano Marcador De Dibujos Animados Decoracion De Marcador Coloreado Marcador Marcador Pintado A Mano Png Y Psd Para Descargar Gratis Pngtree </mark> El dot marker es un marcador de punto por contacto que realiza marcas permanentes resistentes a la intemperie o a la manipulación con talarina.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://images.vexels.com/media/users/3/150120/isolated/preview/5998bfe9bd58d785a6c971bbb7d7a136-yellow-text-marker-3d-icon-by-vexels.png"><img alt="Yellow Text Marker 3d Icon Transparent Png Svg Vector File Marcador permanente paint marker cks pode ser utilizado em diversas superfícies como ferro, metal, vidro produzida à base de óleo e solvente a caneta paint marker possui uma secagem rápida por. yellow text marker 3d icon" src="https://images.vexels.com/media/users/3/150120/isolated/preview/5998bfe9bd58d785a6c971bbb7d7a136-yellow-text-marker-3d-icon-by-vexels.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKqMUc_IDQHa4oWIbpLRSCkqk0Noau9h2Hpw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>512x512 - Si deseas personalizar los marcadores, puedes cambiar el color predeterminado o reemplazar su ícono por una imagen personalizada. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 512x512</li> 
+    <mark>Yellow Text Marker 3d Icon Transparent Png Svg Vector File </mark> Alibaba.com offers 376 marcador products.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://previews.123rf.com/images/pchay/pchay1705/pchay170500047/79022352-dise%C3%B1o-de-vector-de-personaje-de-dibujos-animados-de-marcador-pluma-linda.jpg"><img alt="Diseno De Vector De Personaje De Dibujos Animados De Marcador Pluma Linda Ilustraciones Vectoriales Clip Art Vectorizado Libre De Derechos Image 79022352 Estás tratando de pasar solo marker que por. diseno de vector de personaje de dibujos animados de marcador pluma linda" src="https://previews.123rf.com/images/pchay/pchay1705/pchay170500047/79022352-dise%C3%B1o-de-vector-de-personaje-de-dibujos-animados-de-marcador-pluma-linda.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPoqp-htVuXKNsWkUXtf2qzWZmUXGlKEdhqg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1300x1300 - Os marcador artístico sinoart marker são marcador a base de álcool com cores são miscíveis entre si, podendo ser sobrepostas facilmente. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1300x1300</li> 
+    <mark>Diseno De Vector De Personaje De Dibujos Animados De Marcador Pluma Linda Ilustraciones Vectoriales Clip Art Vectorizado Libre De Derechos Image 79022352 </mark> Resistente à água e à luz solar.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://ae01.alicdn.com/kf/HTB1vMEkbwvD8KJjy0Flq6ygBFXa7/Dise-o-de-Arte-Del-Bosquejo-de-Dibujos-Animados-Ilustrador-profesional-Arte-Marcador-Marcadores-Marcador-de.jpg"><img alt="Diseno De Arte Del Bosquejo De Dibujos Animados Ilustrador Profesional Arte Marcador Marcadores Marcador De Dibujo De Doble Marcador De Punta A Base De Alcohol Art Markers Design Art Markersdesign Markers Aliexpress Caneta permanente para tecido textil marker várias cores. diseno de arte del bosquejo de dibujos animados ilustrador profesional arte marcador marcadores marcador de dibujo de doble marcador de punta a base" src="https://ae01.alicdn.com/kf/HTB1vMEkbwvD8KJjy0Flq6ygBFXa7/Dise-o-de-Arte-Del-Bosquejo-de-Dibujos-Animados-Ilustrador-profesional-Arte-Marcador-Marcadores-Marcador-de.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8FpGXbziN2qI58GcSaE1BvYWdR4h6R-XQYg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>620x636 - A wide variety of marcador options are available to you, such as writing width, use, and material. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 620x636</li> 
+    <mark>Diseno De Arte Del Bosquejo De Dibujos Animados Ilustrador Profesional Arte Marcador Marcadores Marcador De Dibujo De Doble Marcador De Punta A Base De Alcohol Art Markers Design Art Markersdesign Markers Aliexpress </mark> Estás tratando de pasar solo marker que por.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.ebayimg.com/images/g/SUwAAOSwI~5e3bdc/s-l300.jpg"><img alt="New 50 1 Colores Marcadores De Arte De Alcohol De Doble Punta 1 Marcador Ebay A wide variety of marcador options are available to you, such as writing width, use, and material. details about new 50 1 colores marcadores de arte de alcohol de doble punta 1 marcador" src="https://i.ebayimg.com/images/g/SUwAAOSwI~5e3bdc/s-l300.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR36rwU2J7RKTkXhC0cDypy4Heff6RSRCVowQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>300x291 - Resistente à água e à luz solar. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 300x291</li> 
+    <mark>New 50 1 Colores Marcadores De Arte De Alcohol De Doble Punta 1 Marcador Ebay </mark> Besides standard markers, pose markers are another type of markers, which are specific to armatures and shape keys.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://png.pngtree.com/png-clipart/20190920/original/pngtree-green-cartoon-marker-brush-png-image_4656989.jpg"><img alt="Pincel Marcador Verde De Dibujos Animados Rotulador Cepillo De Verde Ilustracion De Pincel De Dibujos Animados Png Y Vector Para Descargar Gratis Pngtree Marcador permanente paint marker cks pode ser utilizado em diversas superfícies como ferro, metal, vidro produzida à base de óleo e solvente a caneta paint marker possui uma secagem rápida por. https es pngtree com freepng green cartoon marker brush 4656989 html" src="https://png.pngtree.com/png-clipart/20190920/original/pngtree-green-cartoon-marker-brush-png-image_4656989.jpg" width="100%" onerror="this.onerror=null;this.src='1';"></a>
+		
+		<p style="text-align: center;"><b>1200x1652 - Caneta permanente para tecido textil marker várias cores. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1200x1652</li> 
+    <mark>Pincel Marcador Verde De Dibujos Animados Rotulador Cepillo De Verde Ilustracion De Pincel De Dibujos Animados Png Y Vector Para Descargar Gratis Pngtree </mark> O objeto marcador usamos para inserir detalhes do marker, como marcador.titulo e marcador.imagem, por exemplo.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://sc02.alicdn.com/kf/HTB1GxUibpooBKNjSZFPq6xa2XXai/230673134/HTB1GxUibpooBKNjSZFPq6xa2XXai.jpg"><img alt="Rotulador De Punta Unica Para Bocetos Marcador De Alcohol Permanente Marcadores De Graffiti De Dibujos Animados Suministros De Logistica Envio Gratis Buy Rotulador Permanente Rotulador De Logistica De Aceite Rotulador De Tinta Inborrable Product On See a recent post on tumblr from @yninastuff about marcador. rotulador de punta unica para bocetos marcador de alcohol permanente marcadores de graffiti de dibujos animados suministros de logistica envio gratis" src="https://sc02.alicdn.com/kf/HTB1GxUibpooBKNjSZFPq6xa2XXai/230673134/HTB1GxUibpooBKNjSZFPq6xa2XXai.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAp_DpiTP5nUUM9uNcyBGu8-D3pADb0JOYw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>750x500 - En realidad, casi cualquier objetivo que queramos. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 750x500</li> 
+    <mark>Rotulador De Punta Unica Para Bocetos Marcador De Alcohol Permanente Marcadores De Graffiti De Dibujos Animados Suministros De Logistica Envio Gratis Buy Rotulador Permanente Rotulador De Logistica De Aceite Rotulador De Tinta Inborrable Product On </mark> El one marker challenge consiste en utilizar un único marcador y hacer un dibujo con el color cuestión.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://static.vecteezy.com/system/resources/previews/000/082/310/non_2x/marker-vector-highlighters.jpg"><img alt="Marker Vector Marcadores De Colores Descargar Vectores Gratis Illustrator Graficos Plantillas Diseno Caneta permanente para tecido textil marker várias cores. https es vecteezy com arte vectorial 82310 marker vector marcadores de colores" src="https://static.vecteezy.com/system/resources/previews/000/082/310/non_2x/marker-vector-highlighters.jpg" width="100%" onerror="this.onerror=null;this.src='1';"></a>
+		
+		<p style="text-align: center;"><b>700x490 - Marcador permanente paint marker cks pode ser utilizado em diversas superfícies como ferro, metal, vidro produzida à base de óleo e solvente a caneta paint marker possui uma secagem rápida por. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 700x490</li> 
+    <mark>Marker Vector Marcadores De Colores Descargar Vectores Gratis Illustrator Graficos Plantillas Diseno </mark> Los marcadores de boceto se utilizan comúnmente para comics, ilustración de guión gráfico, diseño de moda, diseño de interiores.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://st3.depositphotos.com/1432405/13992/v/1600/depositphotos_139928088-stock-illustration-blue-marker-icon-cartoon-style.jpg"><img alt="Blue Marker Icon Cartoon Style Vector Image By C Ylivdesign Vector Stock 139928088 Entrá y conocé nuestras increíbles ofertas y promociones. https depositphotos com 139928088 stock illustration blue marker icon cartoon style html" src="https://st3.depositphotos.com/1432405/13992/v/1600/depositphotos_139928088-stock-illustration-blue-marker-icon-cartoon-style.jpg" width="100%" onerror="this.onerror=null;this.src='1';"></a>
+		
+		<p style="text-align: center;"><b>1600x1700 - En realidad, casi cualquier objetivo que queramos. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1600x1700</li> 
+    <mark>Blue Marker Icon Cartoon Style Vector Image By C Ylivdesign Vector Stock 139928088 </mark> Marcador, queluz de baixo, lisboa, portugal.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://image.freepik.com/free-psd/white-board-with-marker-psd-template_30-2625.jpg"><img alt="Free Psd White Board With Marker Psd Template Por favor, alguien puede ayudarme a agregar marcador animado como este para android google maps v2. white board with marker psd template" src="https://image.freepik.com/free-psd/white-board-with-marker-psd-template_30-2625.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTxxS42sP0pnWC0gOxKRb3x6gz1xRw-dm0Og&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>626x470 - Alibaba.com offers 376 marcador products. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 626x470</li> 
+    <mark>Free Psd White Board With Marker Psd Template </mark> Alibaba.com offers 376 marcador products.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.pinimg.com/originals/38/55/dd/3855dd6ba3c7f8cafb7a8590e7743d13.jpg"><img alt="St12 Manga Colors Double Ended Brush Markers Skintones Art Marker Set For Sketch Graphic Design Fig Arte Con Marcadores Materiales De Arte Materiales De Dibujo El one marker challenge consiste en utilizar un único marcador y hacer un dibujo con el color cuestión. pinterest" src="https://i.pinimg.com/originals/38/55/dd/3855dd6ba3c7f8cafb7a8590e7743d13.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwN-OqmrQjjt0S-EZG0LDvmN5OqgaMDNiaJA&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1000x1000 - See a recent post on tumblr from @yninastuff about marcador. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1000x1000</li> 
+    <mark>St12 Manga Colors Double Ended Brush Markers Skintones Art Marker Set For Sketch Graphic Design Fig Arte Con Marcadores Materiales De Arte Materiales De Dibujo </mark> Resistente à água e à luz solar.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://c8.alamy.com/comp/JP9JPY/marker-pen-icon-flat-cartoon-style-isolated-on-white-background-vector-JP9JPY.jpg"><img alt="Marker Pen Icon Flat Cartoon Style Isolated On White Background Stock Vector Image Art Alamy 28,162 likes · 769 talking about this. https www alamy com marker pen icon flat cartoon style isolated on white background vector image151417699 html" src="https://c8.alamy.com/comp/JP9JPY/marker-pen-icon-flat-cartoon-style-isolated-on-white-background-vector-JP9JPY.jpg" width="100%" onerror="this.onerror=null;this.src='1';"></a>
+		
+		<p style="text-align: center;"><b>1300x1282 - 28,162 likes · 769 talking about this. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1300x1282</li> 
+    <mark>Marker Pen Icon Flat Cartoon Style Isolated On White Background Stock Vector Image Art Alamy </mark> Marcador permanente tipo spray 1.0mm, escreve em vidro, plástico marcador especial para ilustrações e desenhos artísticos e técnicos.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://png.pngtree.com/png-clipart/20190904/original/pngtree-colored-marker-illustration-png-image_4499511.jpg"><img alt="Marcador De Color Marcador Pintado A Mano Marcador De Dibujos Animados Pluma Imagenes Predisenadas De Marcador Marcador De Color Marcador Pintado A Mano Png Y Vector Para Descargar Gratis Pngtree Os marcador artístico sinoart marker são marcador a base de álcool com cores são miscíveis entre si, podendo ser sobrepostas facilmente. https es pngtree com freepng colored marker illustration 4499511 html" src="https://png.pngtree.com/png-clipart/20190904/original/pngtree-colored-marker-illustration-png-image_4499511.jpg" width="100%" onerror="this.onerror=null;this.src='1';"></a>
+		
+		<p style="text-align: center;"><b>1200x872 - Lo que quiero hacer es que el tamaño de mi marcador de google maps tenga un tamaño menor y más adecuado al mapa que estoy mostrando, mi marcador es en si una imagen que descargue para. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1200x872</li> 
+    <mark>Marcador De Color Marcador Pintado A Mano Marcador De Dibujos Animados Pluma Imagenes Predisenadas De Marcador Marcador De Color Marcador Pintado A Mano Png Y Vector Para Descargar Gratis Pngtree </mark> A wide variety of marcador options are available to you, such as writing width, use, and material.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://ae01.alicdn.com/kf/HTB1HIkGKpXXXXbLXVXXq6xXFXXX3/Five-thousand-years-w-002-whiteboard-pen-whiteboard-marker-pen-black-red-blue.jpg"><img alt="Five Thousand Years W 002 Whiteboard Pen Whiteboard Marker Pen Black Red Blue Pen Service Pen Oscilloscopepen Business Aliexpress 28,162 likes · 769 talking about this. five thousand years w 002 whiteboard pen whiteboard marker pen black red blue" src="https://ae01.alicdn.com/kf/HTB1HIkGKpXXXXbLXVXXq6xXFXXX3/Five-thousand-years-w-002-whiteboard-pen-whiteboard-marker-pen-black-red-blue.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQoocLotPJmoz6gWkAZ3efW9xEjjN29Ds8Nw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>976x948 - Marcador de tinta baseado oleoso alcoólico da pena da pena da pena das cores do marcador 30/40/60/80/168 para o mangá o esboço duplo encabeçado marcadores,aproveite promoções, envio. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 976x948</li> 
+    <mark>Five Thousand Years W 002 Whiteboard Pen Whiteboard Marker Pen Black Red Blue Pen Service Pen Oscilloscopepen Business Aliexpress </mark> El one marker challenge consiste en utilizar un único marcador y hacer un dibujo con el color cuestión.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://png.pngtree.com/png-clipart/20190921/original/pngtree-cartoon-stationery-marker-illustration-png-image_4702281.jpg"><img alt="Marcador Rojo Rosa Marcador De Pintura Ilustracion De Pluma De Pintura Papeleria Ilustracion De Pluma De Pintura Marcador De Papeleria De Dibujos Animados Marcador De Pintura Png Y Psd Para Descargar Gratis A wide variety of marcador options are available to you, such as writing width, use, and material. https es pngtree com freepng cartoon stationery marker illustration 4702281 html" src="https://png.pngtree.com/png-clipart/20190921/original/pngtree-cartoon-stationery-marker-illustration-png-image_4702281.jpg" width="100%" onerror="this.onerror=null;this.src='1';"></a>
+		
+		<p style="text-align: center;"><b>1200x1200 - Var markercluster = new markerclusterer(map, marker, {imagepath: </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1200x1200</li> 
+    <mark>Marcador Rojo Rosa Marcador De Pintura Ilustracion De Pluma De Pintura Papeleria Ilustracion De Pluma De Pintura Marcador De Papeleria De Dibujos Animados Marcador De Pintura Png Y Psd Para Descargar Gratis </mark> ¿qué son los marcadores tumorales?
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://previews.123rf.com/images/ylivdesign/ylivdesign1611/ylivdesign161101211/67252959-drawing-marker-pen-icon-cartoon-illustration-of-marker-pen-vector-icon-for-web-design.jpg"><img alt="Drawing Marker Pen Icon Cartoon Illustration Of Marker Pen Vector Royalty Free Cliparts Vectors And Stock Illustration Image 67252959 Marcador de tinta baseado oleoso alcoólico da pena da pena da pena das cores do marcador 30/40/60/80/168 para o mangá o esboço duplo encabeçado marcadores,aproveite promoções, envio. drawing marker pen icon cartoon illustration of marker pen vector" src="https://previews.123rf.com/images/ylivdesign/ylivdesign1611/ylivdesign161101211/67252959-drawing-marker-pen-icon-cartoon-illustration-of-marker-pen-vector-icon-for-web-design.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDARcr2MYbs6FMgSOBPWGNbSxOGoo1vxq7RQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1300x1300 - Por favor, alguien puede ayudarme a agregar marcador animado como este para android google maps v2. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1300x1300</li> 
+    <mark>Drawing Marker Pen Icon Cartoon Illustration Of Marker Pen Vector Royalty Free Cliparts Vectors And Stock Illustration Image 67252959 </mark> Alibaba.com offers 376 marcador products.
+</blockquote>
+    </aside>
+</section>
+
+
+	<section>
+ 
+</section>
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://kaizener.vercel.app/" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/hacer-intros-3d/">Hacer Intros 3D / Best free animated intro makers 2021.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/imagenes-tiernas-de-bebes/">Imagenes Tiernas De Bebes : Fotos muytiernas de bebñes y niños para descargar.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/letras-de-periodico-aesthetic/">Letras De Periodico Aesthetic : La complementación de cuadros morfológicos;</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/libreta-png/">Libreta Png - Looking for more libreta vector png clipart, like null.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/ninas-estudiando-animadas-para-colorear/">Niñas Estudiando Animadas Para Colorear - Las estampas para colorear donde aparecen los diferentes oficios pueden resultarte útiles para que.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/perronas-imagenes-del-america-para-fondo-de-pantalla-2018/">Perronas Imagenes Del America Para Fondo De Pantalla 2018 / Todos los fondos de pantalla e imagenes que se encuentran aqu� se encontraron bajo el dominio p�blico.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/plantas-contra-zombis-dibujos-animados/">Plantas Contra Zombis Dibujos Animados - Dibujos ilustraciones dibujos animados zombies dibujo ojos llorando dibujo frankenstein dibujo personajes de graffiti dibujos divertidos dibujos de zombies.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/torta-pensione-uomo/">Torta Pensione Uomo / Condividi ho fatto un giro per il web alla ricerca di una torta decorata a tema.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/bonet-jason-momoa-moglie/">Bonet Jason Momoa Moglie - Yes, you read that right.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/bonito-fondo-de-cielo-tumblr/">Bonito Fondo De Cielo Tumblr / El fondo de pantalla está ahí todo el tiempo… ¿por qué no dedicarle un poco de esfuerzo para que sea algo que te guste?</a></li>
+		</ul>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Kaizener.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-21862896-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-21862896-2');
+</script>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
